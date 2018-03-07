@@ -11,6 +11,6 @@ BnBnは学生とあなたを繋ぐ中間支援団体です。
 
 以下のURLから、閲覧することができます。
 
-[bnbnhachi.work](bnbnhachi.work/)
+bnbnhachi.work
 
 ※107(2018).03.07現在リダイレクトのみですが。。

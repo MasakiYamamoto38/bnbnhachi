@@ -28,3 +28,13 @@ body{
   padding-bottom: 0em;
   margin-bottom: 0em;
 }
+
+.btn-orange{
+  background-color: #ed6d35;
+}
+.btn-orange:hover{
+  background-color: #ed6d35;/*後で色変えよう*/
+}
+.btn-orange::before{
+  background-color: #ed6d35;/*後で色変えよう*/
+}

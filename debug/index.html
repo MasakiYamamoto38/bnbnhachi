@@ -11,50 +11,35 @@
 
 <body>
 
-
-  <div class="top-bar">
-
-  <div class="show-for-small-only">
-    <div class="title-bar-right">
-      <button class="menu-icon" type="button" data-toggle></button>
-      <div class="title-bar-title">BnBn</div>
-    </div>
-  </div>
-
-  <div class="hide-for-small-only">
-    <div class="top-bar-left">
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li class="menu-text">BnBn</li>
-      </ul>
-    </div>
-  </div>
-  <div class="hide-for-small-only">
-    <div class="top-bar-right">
-      <ul class="menu">
-        <li><a href="#">BnBnのしくみ</a></li>
-        <li><a href="#">募集案件をみる</a></li>
-        <li><a href="#">企業様はこちら</a></li>
-        <li><a href="#">利用規約</a></li>
-        <li><a href="#">お問い合わせ</a></li>
-      </ul>
-    </div>
-  </div>
-  </div>
-
+  <div id="header"></div>
 
   <div class="row">
-
     <div class="columns medium-12">
-
       <div id="top-header"></div>
     </div>
+  </div>
+
+<!--
+・利用規約をフッターに持っていく
+・募集案件をみるを募集案件にする
+・スマホ向けの表示の時は、FLAT ICONとタイトルを利用し、ハンバーガーメニューを使わない
+ -->
+
+  <div class="cell top-block">
+    <h3>BnBnとは</h3>
+    <p>
+      2018年1月に発足した<br>
+      クリエイター志望の学生と企業を繋ぐ、愛知県日進市周辺の方向けの仲介サービスです。<br>
+      名前は<b>BnBn(ブンブン)</b>といいます。
+    </p>
+    <a href="./create/index.html" class="button">BnBnについて知る</a>
   </div>
 
    <div class="grid-x grid-padding-x top-block margin-bottom-none">
      <div class="large-6 medium-6 cell">
          <h3>実績が作れる</h3>
          <p>
-           BnBn（ブンブン）では、クリエイター志望の学生のみなさまに、報酬5000円のお仕事を依頼します。<br>
+           BnBnでは、クリエイター志望の学生の皆さまに<br>報酬5000円のお仕事を依頼します。<br>
            以来の実績は、就職活動に必要なポートフォリオの素材として利用することができます！
          </p>
          <a href="#" class="button show-for-small-only">新規会員登録</a>
@@ -71,16 +56,20 @@
 
    <div class="grid-x grid-padding-x top-block hide-for-small-only margin-top-none ">
      <div class="large-6 medium-6 cell">
-       <a href="#" class="button">新規会員登録</a>
+       <a href="#" class="button btn-orange">新規会員登録</a>
      </div>
      <div class="large-6 medium-6 cell">
        <a href="#" class="button">説明会について</a>
      </div>
    </div>
 
+
   <script src="js/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
   <script>
     $(document).foundation();
+    $(function(){
+$("#header").load("component/header.html");
+});
   </script>
 </body>

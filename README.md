@@ -11,6 +11,6 @@ ss
 
 以下のリンクから、閲覧することができます。
 
-< bnbnhachi.work >
+[bnbnhachi]: bnbnhachi.work/ "bnbnhachi.work"
 
 ※107(2018).03.07現在リダイレクトのみですが。。

@@ -9,6 +9,19 @@
 #top-header::before{
   background: #FFFFFF;
 }
+#company-top-header {
+    background-image: url("#");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 12em;
+    text-align: center;
+    color:white;
+}
+#company-top-header::before{
+  background: #FFFFFF;
+}
+
 
 body{
     background-color: #fdd35c;
@@ -16,6 +29,12 @@ body{
 
 .top-block{
   text-align: center;
+  padding: 2em 2em 2em 2em;
+  background: #FFFFFF;
+}
+
+.company-top-block{
+  text-align: left;
   padding: 2em 2em 2em 2em;
   background: #FFFFFF;
 }
@@ -55,7 +74,7 @@ body{
 
 .header-color-mobile{
   background-color: white;
-  font-size: 0.57em;
+  font-size: 0.7em;/* 0.57em */
   margin-bottom: 0px;
   padding-bottom: 0px;
 }

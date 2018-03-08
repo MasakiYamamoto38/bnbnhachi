@@ -55,7 +55,7 @@ body{
 
 .header-color-mobile{
   background-color: white;
-  font-size: 0.55em;
+  font-size: 0.57em;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -90,20 +90,7 @@ body{
   font-size: 7px;
 }
 
-
 /* WP CLI */
-
-/* .top-bar::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 1px;
-  width: 100%;
-  height: 10px;
-  background: #dadada;
-} */
-
 .bottom-line{
   border-width: 0px 0px 1px 0px; /* 太さ */
    border-style: solid; /* 線種 */
@@ -114,6 +101,11 @@ body{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .background-white{
@@ -124,14 +116,3 @@ body{
   padding: 0 0 0 0;
   margin: 0.8em 1em 0em 1em;/* top ? bottom ? */
 }
-
-/* .top-box{
-  margin: 10 10 10 10;
-  padding: 0 0 0 0;
-  background-color: white;
-
-} */
-
-/* top-bar li{
-  background-color: gray;
-} */

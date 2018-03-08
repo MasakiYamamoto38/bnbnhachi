@@ -43,8 +43,10 @@ body{
   display: block;
  margin-left: auto;
  margin-right: auto;
-  width:2em;
-  height:2em;
+  /* width:2em;
+  height:2em; */
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .header-color{
@@ -54,6 +56,8 @@ body{
 .header-color-mobile{
   background-color: white;
   font-size: 0.55em;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .menu li {
@@ -114,6 +118,11 @@ body{
 
 .background-white{
   background-color: white;
+}
+
+.header-color-mobile a{
+  padding: 0 0 0 0;
+  margin: 0.8em 1em 0em 1em;/* top ? bottom ? */
 }
 
 /* .top-box{

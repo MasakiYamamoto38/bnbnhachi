@@ -16,3 +16,8 @@
 p{
   margin-left: 1em;
 }
+
+.content-margin{
+  margin-left: 2em;
+  margin-right: 2em;
+}

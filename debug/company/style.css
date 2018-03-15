@@ -1,10 +1,18 @@
 #company-top-header {
     background-image: url("");
     background-position: center;
-    background-size: contain;
+    height:600;
+    /* background-size: contain; */
     background-repeat: no-repeat;
     height: 12em;
     text-align: center;
+}
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
 }
 
 #company-top-block{
@@ -13,11 +21,20 @@
   background: #FFFFFF;
 }
 
-p{
-  margin-left: 1em;
-}
-
 .content-margin{
   margin-left: 2em;
   margin-right: 2em;
+}
+
+/* タイトル余白 */
+h3{
+  margin: 1em 1em 1em 0em;
+}
+
+/* 本文余白 */
+p{
+  margin-left: 0.5em;
+}
+li{
+  margin-left: 0.5em;
 }
